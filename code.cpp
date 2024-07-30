@@ -269,23 +269,9 @@ int main()
     Graph g(V);
     g.set_edges(edges);
     g.set_adj_list();
-    g.print_adj_list();
-
-
+    cout<<g.is_cycle();
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
